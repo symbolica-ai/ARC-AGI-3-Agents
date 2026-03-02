@@ -43,7 +43,7 @@ trap cleanup EXIT INT TERM
 
 wait_for_server() {
     local port="$1"
-    local max_wait=30
+    local max_wait=90
     local waited=0
     echo -n "Waiting for session manager on port $port "
     while ! nc -z localhost "$port" 2>/dev/null; do
