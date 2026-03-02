@@ -43,6 +43,10 @@ ActionName = Literal[
 class Arcgentica(Agent):
     """ARC-AGI-3 agent harness built on the Agentica SDK."""
 
+    MAX_ACTIONS: int = (
+        10_000  # arbitrary override to let agents play for longer (see superclass)
+    )
+
     def __init__(
         self,
         *args: Any,
