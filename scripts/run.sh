@@ -86,6 +86,7 @@ fi
 
 cd "$PROJECT_DIR"
 export S_M_BASE_URL="http://localhost:${SM_PORT}"
+unset AGENTICA_BASE_URL AGENTICA_API_KEY 2>/dev/null || true
 # shellcheck disable=SC2086
 uv run main.py --agent="$AGENT" $GAME_ARG $TAG_ARG
 

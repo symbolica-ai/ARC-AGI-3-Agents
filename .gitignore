@@ -12,6 +12,9 @@
 # IDE settings
 .vscode/
 
+# Local server
+/agentica-server/
+
 # Recordings (winning runs are excluded below and tracked via LFS)
 recordings/*.recording.jsonl
 !recordings/ft09-9ab2447a.agentica.6e764699-ea38-4804-9e81-32bcdae6a003.recording.jsonl
