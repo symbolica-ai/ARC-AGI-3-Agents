@@ -25,8 +25,7 @@ from .logging.logger import EventServer, WsLogger
 from .logging.tracker import UsageTracker
 from .model import OPUS_4_6, ModelConfig
 from .prompts import GAME_REFERENCE, premise
-from .scope.frame import Frame
-from .scope.memories import Memories, Memory
+from .scope import FinishStatus, Frame, Memories, Memory
 
 logger = logging.getLogger()
 
@@ -415,8 +414,8 @@ class Arcgentica(Agent):
 
         memories = Memories(model=self.model.subagent_model)
 
-        return await orchestrator.call(
-            None,
+        status = await orchestrator.call(
+            FinishStatus,
             f"""You are playing the game `{self.game_id}`. \
 Level {initial_frame.levels_completed}/{initial_frame.win_levels}. \
 Available actions for this level: {actions}
@@ -435,6 +434,7 @@ When ready, spawn an explorer and give it a bounded submit_action, \
             memories=memories,
             GAME_REFERENCE=GAME_REFERENCE,
         )
+        logger.info(f"Finish status: {status}")
 
     def _write_usage(self) -> None:
         if self._tracker is None:

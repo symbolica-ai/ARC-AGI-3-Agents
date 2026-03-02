@@ -6,6 +6,7 @@ from agentica import Agent, spawn
 from agentica.logging.agent_listener import AgentListener
 from agentica.logging.loggers.file_logger import FileLogger
 
+__all__ = ["Memory", "Memories", "MemoryQueryError"]
 
 
 @dataclass(slots=True, frozen=True)

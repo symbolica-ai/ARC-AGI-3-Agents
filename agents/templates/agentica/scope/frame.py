@@ -8,6 +8,8 @@ from typing import Literal, Self
 import numpy as np
 from arcengine import FrameData, GameAction, GameState
 
+__all__ = ["DiffRegion", "Frame"]
+
 
 @dataclass(slots=True)
 class DiffRegion:
