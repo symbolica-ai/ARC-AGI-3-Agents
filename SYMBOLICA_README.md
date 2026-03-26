@@ -129,6 +129,59 @@ See the official ARC-AGI-3 recording logs in `recordings/` and the visualizer re
   - scorecard ID: `e218993-60de-448b-ad98-dafa624d7be8`
   - as of commit: `8fd5c5e`
 
+New runs (no scorecard ID), as of commit `8391486`:
+
+- `ar25`:
+  - run ID: `ar25-e3c63847`
+- `bp35`:
+  - run ID: `bp35-0a0ad940`
+- `cd82`:
+  - run ID: `cd82-fb555c5d`
+- `cn04`:
+  - run ID: `cn04-65d47d14`
+- `dc22`:
+  - run ID: `dc22-4c9bff3e`
+- `ft09`:
+  - run ID: `ft09-0d8bbf25`
+- `g50t`:
+  - run ID: `g50t-5849a774`
+- `ka59`:
+  - run ID: `ka59-9f096b4a`
+- `lf52`:
+  - run ID: `lf52-271a04aa`
+- `lp85`:
+  - run ID: `lp85-305b61c3`
+- `ls20`:
+  - run ID: `ls20-9607627b`
+- `m0r0`:
+  - run ID: `m0r0-dadda488`
+- `r11l`:
+  - run ID: `r11l-aa269680`
+- `re86`:
+  - run ID: `re86-4e57566e`
+- `s5i5`:
+  - run ID: `s5i5-a48e4b1d`
+- `sb26`:
+  - run ID: `sb26-7fbdac44`
+- `sc25`:
+  - run ID: `sc25-f9b21a2f`
+- `sk48`:
+  - run ID: `sk48-41055498`
+- `sp80`:
+  - run ID: `sp80-0ee2d095`
+- `su15`:
+  - run ID: `su15-4c352900`
+- `tn36`:
+  - run ID: `tn36-ab4f63cc`
+- `tr87`:
+  - run ID: `tr87-cd924810`
+- `tu93`:
+  - run ID: `tu93-2b534c15`
+- `vc33`:
+  - run ID: `vc33-9851e02b`
+- `wa30`:
+  - run ID: `wa30-ee6fef47`
+
 ### Replaying a visualizer log
 
 ```bash

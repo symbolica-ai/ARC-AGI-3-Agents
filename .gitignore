@@ -38,6 +38,31 @@ visualizer_logs/*
 !visualizer_logs/ft09-9ab2447a_20260220_121159.jsonl
 !visualizer_logs/ls20-cb3b57cc_20260217_172701.jsonl
 !visualizer_logs/vc33-9851e02b_20260219_161012.jsonl
+!visualizer_logs/ar25-e3c63847_20260326_033618.jsonl
+!visualizer_logs/bp35-0a0ad940_20260325_225706.jsonl
+!visualizer_logs/cd82-fb555c5d_20260326_101852.jsonl
+!visualizer_logs/cn04-65d47d14_20260325_225706.jsonl
+!visualizer_logs/dc22-4c9bff3e_20260326_101852.jsonl
+!visualizer_logs/ft09-0d8bbf25_20260326_012458.jsonl
+!visualizer_logs/g50t-5849a774_20260326_152935.jsonl
+!visualizer_logs/ka59-9f096b4a_20260326_143108.jsonl
+!visualizer_logs/lf52-271a04aa_20260326_012458.jsonl
+!visualizer_logs/lp85-305b61c3_20260326_144152.jsonl
+!visualizer_logs/ls20-9607627b_20260326_012458.jsonl
+!visualizer_logs/m0r0-dadda488_20260326_152923.jsonl
+!visualizer_logs/r11l-aa269680_20260326_101852.jsonl
+!visualizer_logs/re86-4e57566e_20260326_012458.jsonl
+!visualizer_logs/s5i5-a48e4b1d_20260326_012458.jsonl
+!visualizer_logs/sb26-7fbdac44_20260326_012458.jsonl
+!visualizer_logs/sc25-f9b21a2f_20260326_012458.jsonl
+!visualizer_logs/sk48-41055498_20260326_053342.jsonl
+!visualizer_logs/sp80-0ee2d095_20260325_233728.jsonl
+!visualizer_logs/su15-4c352900_20260326_152929.jsonl
+!visualizer_logs/tn36-ab4f63cc_20260326_152932.jsonl
+!visualizer_logs/tr87-cd924810_20260326_143142.jsonl
+!visualizer_logs/tu93-2b534c15_20260326_012458.jsonl
+!visualizer_logs/vc33-9851e02b_20260325_225706.jsonl
+!visualizer_logs/wa30-ee6fef47_20260325_225706.jsonl
 actions_log/
 
 # Scratch / local experiments
