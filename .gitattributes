@@ -2,6 +2,4 @@
 recordings/ft09-9ab2447a.agentica.6e764699-ea38-4804-9e81-32bcdae6a003.recording.jsonl filter=lfs diff=lfs merge=lfs -text
 recordings/ls20-cb3b57cc.agentica.c81f9f4f-3b73-4611-8a31-5898a453f47f.recording.jsonl filter=lfs diff=lfs merge=lfs -text
 recordings/vc33-9851e02b.agentica.91c40838-ff77-481c-b8aa-e509c6d61091.recording.jsonl filter=lfs diff=lfs merge=lfs -text
-visualizer_logs/ft09-9ab2447a_20260220_121159.jsonl filter=lfs diff=lfs merge=lfs -text
-visualizer_logs/ls20-cb3b57cc_20260217_172701.jsonl filter=lfs diff=lfs merge=lfs -text
-visualizer_logs/vc33-9851e02b_20260219_161012.jsonl filter=lfs diff=lfs merge=lfs -text
+visualizer_logs/*.jsonl filter=lfs diff=lfs merge=lfs -text
